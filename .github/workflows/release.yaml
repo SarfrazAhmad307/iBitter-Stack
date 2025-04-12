@@ -30,9 +30,6 @@ jobs:
           git add $READMEFILE
           git commit -m "Uncommented HuggingFace Spaces Configuration" || echo "No changes to commit"
 
-      - name: Wait for 10 seconds
-        run: sleep 10
-
       - name: Push to Hugging Face
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
