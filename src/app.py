@@ -67,7 +67,7 @@ elif selected == "Algorithm":
     with col2:
         # add image
         st.image(
-            "/Users/sarfrazahmad/Downloads/bitterpeptide-predictor/streamlit_app/static/pipeline.png",
+            "/Users/sarfrazahmad/Downloads/bitterpeptide-predictor/streamlit_app/static/pipeline.svg",
             # caption="Algorithm Overview",
             use_container_width=True,
         )
