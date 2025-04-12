@@ -1,9 +1,9 @@
 esm
 fastapi
-joblib
+joblib==1.3.2
 torch
 matplotlib
-numpy
+numpy==1.26.4
 pandas
 pydantic
 scikit-learn==1.2.2
