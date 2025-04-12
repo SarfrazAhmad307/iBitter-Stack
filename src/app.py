@@ -67,7 +67,7 @@ elif selected == "Algorithm":
     with col2:
         # add image
         st.image(
-            "src/static/pipeline.svg",
+            "src/static/pipeline.png",
             # caption="Algorithm Overview",
             use_container_width=True,
         )
