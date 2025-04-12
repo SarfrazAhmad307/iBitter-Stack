@@ -2,6 +2,7 @@ esm
 fastapi
 joblib
 torch
+matplotlib
 numpy
 pandas
 pydantic
