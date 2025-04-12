@@ -112,4 +112,4 @@ git push origin $BRANCH
 git push origin $VERSION
 
 gh release create "$VERSION" --generate-notes --prerelease
-echo "Pre-release $VERSION created."
+echo "Release $VERSION created."
