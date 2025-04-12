@@ -111,5 +111,5 @@ git tag $VERSION
 git push origin $BRANCH
 git push origin $VERSION
 
-gh release create "$VERSION" --generate-notes --prerelease
+gh release create "$VERSION" --generate-notes
 echo "Release $VERSION created."
