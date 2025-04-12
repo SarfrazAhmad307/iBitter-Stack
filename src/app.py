@@ -8,6 +8,8 @@ from streamlit_option_menu import option_menu
 from single_sequence import single_sequence
 from batch_sequences import batch_sequences
 
+os.environ["TORCH_DISABLE_RELOADER"] = "1"
+
 # Remove torch.classes error for Streamlit reload
 if "torch.classes" in sys.modules:
     del sys.modules["torch.classes"]

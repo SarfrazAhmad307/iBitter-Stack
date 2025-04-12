@@ -6,6 +6,6 @@ matplotlib
 numpy
 pandas
 pydantic
-scikit-learn
+scikit-learn==1.2.2
 streamlit_option_menu
 transformers
