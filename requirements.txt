@@ -1,0 +1,9 @@
+esm
+fastapi
+joblib
+torch
+numpy
+pandas
+pydantic
+scikit-learn
+transformers

@@ -24,6 +24,9 @@ jobs:
           git lfs install
           git lfs pull
 
+      - name: reset commit
+        run: git filter-branch --force --index-filter "git rm --cached --ignore-unmatch **/*.pkl **/*.png" --prune-empty --tag-name-filter cat -- --all
+
       - name: Setup Git Config
         run: |
           git checkout main
