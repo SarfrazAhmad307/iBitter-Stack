@@ -17,6 +17,13 @@ jobs:
           ref: ${{ github.head_ref }}
           fetch-depth: 0
 
+      - name: Install Git LFS
+        run: |
+          sudo apt-get update
+          sudo apt-get install git-lfs
+          git lfs install
+          git lfs pull
+
       - name: Setup Git Config
         run: |
           git checkout main
