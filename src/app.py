@@ -22,18 +22,18 @@ sys.path.append(
 from predictor import final_prediction
 
 st.set_page_config(
-    page_title="Bitter Peptide Predictor",
+    page_title="iBitter-Stack",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
 # st.title("🧪 Bitter Peptide Predictor")
 st.markdown(
-    "<h2 style='text-align: center;'>Bitter Peptide Predictor 🧪 </h2>",
+    "<h2 style='text-align: center;'>iBitter-Stack 🧪 </h2>",
     unsafe_allow_html=True,
 )
 
 st.markdown(
-    "<h5 style='text-align: center;'>This web app predicts whether a peptide sequence is Bitter or Non-Bitter using a trained model.</h5>",
+    "<h5 style='text-align: center;'>A Multi-Representation Ensemble Learning Model for Accurate Bitter Peptide Identification</h5>",
     unsafe_allow_html=True,
 )
 

@@ -1,5 +1,5 @@
 <!--
-title: Bitter Peptide Predictor
+title: iBitter-Stack
 emoji: 🧪
 colorFrom: green
 colorTo: purple
@@ -8,7 +8,7 @@ app_file: src/app.py
 pinned: false
 -->
 
-# Bitter Peptide Prediction Backend 🧪
+# iBitter-Stack 🧪
 
 This repository provides a powerful backend for predicting whether peptide sequences are **Bitter** or **Non-Bitter**, using a combination of multiple machine learning models and a meta-classifier.
 
@@ -124,7 +124,7 @@ backend/
 
 ## Author
 
-Built by Sarfraz Ahmad as part of a research project on peptide bitterness prediction.
+Built by Sarfraz Ahmad as part of a research on peptide bitterness prediction.
 
 ---
 
