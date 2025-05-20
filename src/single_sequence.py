@@ -17,13 +17,13 @@ def single_sequence():
         "Enter a peptide sequence to predict whether it's **Bitter** or **Non-Bitter**:"
     )
     sequence = st.text_input("Peptide Sequence", value="", placeholder="e.g., IVY")
+    sequence = sequence.upper()
 
     if st.button("Predict"):
         if not sequence:
             st.warning("Please enter a sequence.")
         else:
             try:
-                sequence = sequence.upper()
                 result = final_prediction(sequence)
                 st.success(
                     f"✅ Prediction: **{result['final_prediction']}** (Confidence: {result['confidence']})"
