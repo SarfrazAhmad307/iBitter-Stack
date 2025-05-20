@@ -23,6 +23,7 @@ def single_sequence():
             st.warning("Please enter a sequence.")
         else:
             try:
+                sequence = sequence.upper()
                 result = final_prediction(sequence)
                 st.success(
                     f"✅ Prediction: **{result['final_prediction']}** (Confidence: {result['confidence']})"
