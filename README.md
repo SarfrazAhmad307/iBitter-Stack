@@ -130,4 +130,4 @@ Built by Sarfraz Ahmad as part of a research on peptide bitterness prediction.
 
 ## 📬 Questions or Help?
 
-Open an issue or reach out via email.
+Open an issue or reach out via `sarfaraz_076@outlook.com`.
