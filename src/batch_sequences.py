@@ -28,6 +28,8 @@ def batch_sequences():
                     results.append(result)
 
                 result_df = pd.DataFrame(results)
+                # Convert to object dtype to avoid PyArrow LargeUtf8 compatibility issues
+                result_df = result_df.astype(str)
 
                 st.success("✅ Predictions complete!")
                 st.dataframe(result_df, use_container_width=True)

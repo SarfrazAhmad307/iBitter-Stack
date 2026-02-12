@@ -5,6 +5,8 @@ torch
 matplotlib
 numpy==1.26.4
 pandas
+pyarrow<15.0.0
+streamlit>=1.31.0
 pydantic
 scikit-learn==1.2.2
 streamlit_option_menu

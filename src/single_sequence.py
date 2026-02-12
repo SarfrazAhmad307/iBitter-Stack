@@ -32,6 +32,8 @@ def single_sequence():
                 st.markdown("#### 🔬 Model Probabilities")
                 prob_df = pd.DataFrame([result["base_probs"]]).T
                 prob_df.columns = ["Probability"]
+                # Convert index to object dtype to avoid PyArrow compatibility issues
+                prob_df.index = prob_df.index.astype(str)
                 st.dataframe(prob_df)
 
                 # Bar chart of model confidences
