@@ -26,7 +26,7 @@ def single_sequence():
             try:
                 result = final_prediction(sequence)
                 st.success(
-                    f"✅ Prediction: **{result['final_prediction']}** (Confidence: {result['confidence']})"
+                    f"✅ Prediction: **{result['final_prediction']}** (Probability: {result['confidence']})"
                 )
 
                 st.markdown("#### 🔬 Model Probabilities")
